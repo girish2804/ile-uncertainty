@@ -167,8 +167,6 @@ jupyter notebook notebooks/
 | [`asymmetric_decomposition_analysis.ipynb`](notebooks/asymmetric_decomposition_analysis.ipynb) | **Section 4.2** | Asymmetric uncertainty decomposition analysis ($K_a = 2, K_e = 16$). |
 | [`difference_decomposition_analysis.ipynb`](notebooks/difference_decomposition_analysis.ipynb) | **Section 4.3** | Difference decomposition metrics across architecture classes (Llama, Qwen, Phi). |
 | [`rag_routing_analysis.ipynb`](notebooks/rag_routing_analysis.ipynb) | **Section 5 (Case Study)** | Selective RAG case study: epistemic uncertainty dissipation and accuracy-retrieval tradeoffs. |
-| [`threshold_sweep_analysis.ipynb`](notebooks/threshold_sweep_analysis.ipynb) | **Appendix C** | Sensitivity analysis over relative top filtering thresholds. |
-| [`appendix_qualitative_analysis.ipynb`](notebooks/appendix_qualitative_analysis.ipynb) | **Appendix D** | Qualitative examples, generated sequences, and error analysis. |
 
 ---
 
