@@ -178,7 +178,6 @@ jupyter notebook notebooks/
 - **Meta Llama**: `meta-llama/Llama-3.2-1B-Instruct`, `meta-llama/Llama-3.2-3B-Instruct`, `meta-llama/Meta-Llama-3-8B-Instruct`, `meta-llama/Llama-3.1-70B-Instruct`
 - **Qwen 2.5**: `Qwen/Qwen2.5-1.5B-Instruct`, `Qwen/Qwen2.5-3B-Instruct`, `Qwen/Qwen2.5-7B-Instruct`, `Qwen/Qwen2.5-14B-Instruct`, `Qwen/Qwen2.5-72B-Instruct`
 - **Microsoft Phi-3**: `microsoft/Phi-3-mini-4k-instruct`, `microsoft/Phi-3-medium-4k-instruct`
-- **MoE Architectures**: `deepseek-ai/deepseek-moe-16b-chat`, `Qwen/Qwen1.5-MoE-A2.7B-Chat`
 
 ### Datasets
 - **OpenBookQA**: Elementary science question answering assessing retrieval and commonsense reasoning.
@@ -192,21 +191,6 @@ jupyter notebook notebooks/
 - **Salient Token Attribution**: Salient knowledge token identification in [`src/token_attribution.py`](src/token_attribution.py) is adapted from the attribution scoring formulation in:
   > Lukas Aichberger, Kajetan Schweighofer, Mykyta Ielanskyi, and Sepp Hochreiter. *Improving Uncertainty Estimation through Semantically Diverse Language Generation (SDLG)*. International Conference on Learning Representations (ICLR), 2025.
 - **Baseline Implementations**: Comparisons include Semantic Entropy ([Kuhn et al., 2023](https://arxiv.org/abs/2302.09664)), TokUR ([Du et al., 2024](https://arxiv.org/abs/2406.14175)), and ICE ([Zhang et al., 2024](https://arxiv.org/abs/2406.15927)).
-
----
-
-## Citation
-
-If you use Intermediate Layer Ensembling (ILE) in your research, please cite:
-
-```bibtex
-@article{ile2026uncertainty,
-  title={Uncertainty Decomposition for Large Language Models via Intermediate Layer Ensembling},
-  author={Research Team},
-  journal={arXiv preprint},
-  year={2026}
-}
-```
 
 ---
 
