@@ -42,7 +42,7 @@ class Args:
         self.num_top_layers = None
         self.num_top_layers_list = None
         self.skip_generation = False
-        self.quantization = ['4bit', '8bit', None][0]
+        self.quantization = ['4bit', '8bit', None][2]
         self.hf_token = os.environ.get('HF_TOKEN', None)  # Resolved from environment or local HF cache
         self.is_moe = False
         self.force_overwrite = False
