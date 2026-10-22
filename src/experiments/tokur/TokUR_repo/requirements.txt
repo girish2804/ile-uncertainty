@@ -1,0 +1,13 @@
+torch>=2.0.0
+numpy>=1.19.2
+transformers>=4.45.0
+vllm==0.7.3
+datasets
+pandas
+scikit-learn
+sympy
+click
+latex2sympy2
+regex
+word2number
+safetensors

@@ -1,0 +1,12 @@
+# Requirements for TokUR (Token-Level Uncertainty Estimation) Baseline
+torch>=2.0.0
+transformers>=4.45.0,<4.47.0
+tokenizers>=0.20.0,<0.21.0
+huggingface-hub>=0.23.0,<0.26.0
+datasets>=2.14.0
+evaluate>=0.4.0
+accelerate>=0.25.0
+pyyaml>=5.4.0
+numpy>=1.21.0
+tqdm>=4.60.0
+bleurt @ git+https://github.com/google-research/bleurt.git

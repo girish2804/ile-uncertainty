@@ -1,0 +1,103 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+*.dylib
+*.dll
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE & Editor Settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+
+# OS specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Temporary and Scratch Directories
+scratch/
+backup/
+.agents/
+*.tmp
+*.bak
+
+# Logs and Run Outputs
+*.log
+logs/
+
+# Model Checkpoints and Cache
+.cache/
+*.ckpt
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# Large Compressed Archives
+*.tar.gz
+*.zip
+
+# Intermediate Pickles & Raw Generation Artifacts
+*.pkl
+*.pkl.gz
+result/**/results_dict_*.pkl*
+result/**/sdlg_entropies_*.pkl*
+
+# Explicitly Keep Benchmark Summaries & Results
+!result/*.csv
+!result/*.tsv
+!result/*.xlsx
+!result/*.xls
+!data/*.csv
+!data/*.txt
+
+# Figures, LaTeX, and Diagram Assets
+figures/
+latex/
+drawio_assets/
