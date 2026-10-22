@@ -52,7 +52,7 @@ class OpenBookQAArgs:
         self.start_idx = 0
         self.num_samples = -1  # Number of samples to process (-1 for all 500 test samples)
         self.skip_generation = False  # Set to True to only run downstream evaluation
-        self.quantization = ['4bit', '8bit', None][0]  # Quantization mode: '4bit', '8bit', or None
+        self.quantization = ['4bit', '8bit', None][2]  # Quantization mode: '4bit', '8bit', or None
         self.hf_token = os.environ.get('HF_TOKEN', None)  # Hugging Face token passed via Args
         self.is_moe = False
         self.force_overwrite = False
