@@ -163,8 +163,6 @@ jupyter notebook notebooks/
 |:---|:---|:---|
 | [`paper_layerwise_plots.ipynb`](notebooks/paper_layerwise_plots.ipynb) | **Figures 1 & 2** | Layerwise epistemic divergence patterns across model architectures ($3 \times 3$ and $3 \times 6$ grids). |
 | [`auroc_analysis.ipynb`](notebooks/auroc_analysis.ipynb) | **Table 1** | Main AUROC error-detection and PRR benchmark comparisons across all models and datasets. |
-| [`decomposition_analysis.ipynb`](notebooks/decomposition_analysis.ipynb) | **Table 2** | Symmetric uncertainty decomposition analysis ($K_a = K_e$). |
-| [`asymmetric_decomposition_analysis.ipynb`](notebooks/asymmetric_decomposition_analysis.ipynb) | **Section 4.2** | Asymmetric uncertainty decomposition analysis ($K_a = 2, K_e = 16$). |
 | [`difference_decomposition_analysis.ipynb`](notebooks/difference_decomposition_analysis.ipynb) | **Section 4.3** | Difference decomposition metrics across architecture classes (Llama, Qwen, Phi). |
 | [`rag_routing_analysis.ipynb`](notebooks/rag_routing_analysis.ipynb) | **Section 5 (Case Study)** | Selective RAG case study: epistemic uncertainty dissipation and accuracy-retrieval tradeoffs. |
 
