@@ -10,7 +10,7 @@ class AllLayersArgs:
         self.deberta_model = 'deberta-large-mnli'
         self.start_idx = 0
         self.num_samples = -1  # -1 for all available samples
-        self.quantization = ['4bit', '8bit', None][0]  # '4bit' NF4 for 70B models on 48GB GPU
+        self.quantization = ['4bit', '8bit', None][2]  # '4bit' NF4 for 70B models on 48GB GPU
         self.hf_token = os.environ.get('HF_TOKEN', None)
         self.is_moe = False
         self.force_overwrite = False
